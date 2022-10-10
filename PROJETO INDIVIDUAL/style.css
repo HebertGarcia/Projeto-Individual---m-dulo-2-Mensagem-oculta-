@@ -1,0 +1,40 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background: #012030 url(imagens/fundo.jpg) no-repeat top center;
+}
+
+
+
+h1{
+    color: rgb(160, 245, 127);
+}
+
+#label{
+    color: white;
+    font-size: large;
+}
+
+#key{
+    color: white;
+    font-size: large;
+}
+
+#container{
+    width: 600px;
+    background: #13678A;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 10px solid black;
+    text-align: center;
+}
+
+#respostabase{
+    color: white;
+    font-size: 3em;
+}
+
+#output{
+    color: white;
+    font-size: 3em;
+}
+

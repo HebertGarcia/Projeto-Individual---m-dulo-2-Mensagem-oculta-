@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto individual</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+        <fieldset id="container">     
+            <h1>Base 64</h1>
+
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+           
+           
+            <br><br>
+         <div>
+            <button id="codificar">Codificar Base 64</button>  <button id="decodificar">Decodificar</button>
+         </div>
+            <br><br>
+            
+            <hr>
+
+            <br><br>
+
+            <h1>Cifra de César</h1>
+            <input type="text" id="input">
+
+            <br><br>
+
+            <span id="label">Selecionar chave +7: </span>
+            <button onclick="prev()">-</button>
+            <span id="key">1</span>
+            <button onclick="next()">+</button><br/><br/>
+            
+            <br><br>
+            <input type="button" value="CODIFICAR CÉSAR" id="button2" onclick="enviarcesar()">   <input type="button" value="DECODIFICAR" id="button3" onclick="decodificar()">
+            <br><br>
+            <span id="output"></span>
+    
+        </fieldset>
+
+
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
